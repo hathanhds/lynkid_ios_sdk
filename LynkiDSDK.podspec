@@ -19,10 +19,10 @@ Pod::Spec.new do |s|
   s.author = { "ThanhNTH" => "thanhnh.hpvn@gmail.com" }
   
   # 5 
-  s.homepage = "https://github.com/hathanhds/linkid_ios_sdk"
+  s.homepage = "https://github.com/hathanhds/lynkid_ios_sdk"
   
   # 6
-  s.source = { :git => "https://github.com/hathanhds/linkid_ios_sdk.git", 
+  s.source = { :git => "https://github.com/hathanhds/lynkid_ios_sdk", 
                :tag => "#{s.version}" }
 
   s.vendored_frameworks = "LynkiDSDK.framework"
