@@ -1,0 +1,41 @@
+{
+  "result": {
+    "totalCount": 1,
+    "items": [
+      {
+        "id": 589887,
+        "code": "LID20240813034502015_5222",
+        "eGiftCode": "157459798524",
+        "eGiftStatus": "Used",
+        "eGiftExpiredDate": "2024-08-22T23:59:59Z",
+        "serialNo": "016751000006891",
+        "giftName": "Mobifone 10.000 (ASIM)",
+        "thirdPartyBrandId": "MOBI",
+        "creationTime": "08/2024",
+        "vendorId": 42,
+        "requiredCoin": 10000,
+        "transactionCode": "03297635D220184B28B6385C0E100D477C4456",
+        "thirdPartyCategoryName": "Phone",
+        "topupCard": "{\"PrePaid\": \"*100*157459798524#\",\"PostPaid\": \"*199*0*157459798524#\"}",
+        "categoryName": "Nạp tiền điện thoại",
+        "whyHaveIt": "BOUGHT",
+        "status": "Delivered",
+        "recipientPhone": "0358512502",
+        "isTopup": false,
+        "creationDateTime": "2024-08-13T10:45:02.041572Z",
+        "fullPrice": 10000,
+        "brandInfo": {
+          "brandId": 1136,
+          "brandName": "YTMobifone",
+          "brandImage": "https://linkidstorage.s3-ap-southeast-1.amazonaws.com/upload-gift/ef82741a259a79d587035ad2255e5d23.png",
+          "isBrandFavourite": false
+        }
+      }
+    ]
+  },
+  "targetUrl": null,
+  "success": true,
+  "error": null,
+  "unAuthorizedRequest": false,
+  "__abp": true
+}

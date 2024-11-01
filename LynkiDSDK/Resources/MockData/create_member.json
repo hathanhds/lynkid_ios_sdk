@@ -1,0 +1,18 @@
+{
+  "data": {
+    "phoneNumber": "+84984744981",
+    "cif": "14524873",
+    "merchantId": 218,
+    "isExisting": false,
+    "basicInfo": {
+      "name": "Nguyễn Hà Thanh",
+      "memberCode": "SDK218-2120d781-0e40-409a-bf8c-09fbce3c4303",
+      "balance": 0,
+      "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJQaG9uZU51bWJlciI6Iis4NDk4NDc0NDk4MSIsIkNpZiI6IjE0NTI0ODczIiwiTmFtZSI6Ik5ndXnhu4VuIEjDoCBUaGFuaCIsIk1lbWJlckNvZGUiOiJTREsyMTgtMjEyMGQ3ODEtMGU0MC00MDlhLWJmOGMtMDlmYmNlM2M0MzAzIiwibmJmIjoxNzIxMzYwODM5LCJleHAiOjE3MjEzNjExMzksImlhdCI6MTcyMTM2MDgzOSwiYXVkIjoiTHlua2lEIn0.7Y251dF5NDfh9YnWBqxI3cuXf1n_t99Fz8bZmCCsbgM",
+      "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJQaG9uZU51bWJlciI6Iis4NDk4NDc0NDk4MSIsIkNpZiI6IjE0NTI0ODczIiwiTmFtZSI6Ik5ndXnhu4VuIEjDoCBUaGFuaCIsIk1lbWJlckNvZGUiOiJTREsyMTgtMjEyMGQ3ODEtMGU0MC00MDlhLWJmOGMtMDlmYmNlM2M0MzAzIiwibmJmIjoxNzIxMzYwODM5LCJleHAiOjE3MjEzNjE0MzksImlhdCI6MTcyMTM2MDgzOSwiYXVkIjoiTHlua2lEIn0.RFswQTULzx4MgIi2eJP_vNlm-AGUlvlYwvKqQIFqbqA"
+    },
+    "connectionInfo": null
+  },
+  "message": "Success",
+  "isSuccess": true
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="LoadMoreFooterCollectionView" id="3wQ-zM-eA2" customClass="LoadMoreFooterCollectionView" customModule="LynkID" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="69"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="Evj-WK-CIL">
+                    <rect key="frame" x="176.66666666666666" y="14.666666666666664" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="Tel-q1-NFv"/>
+                        <constraint firstAttribute="width" secondItem="Evj-WK-CIL" secondAttribute="height" multiplier="1:1" id="d5u-QT-iP3"/>
+                    </constraints>
+                </activityIndicatorView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="xTH-kI-8E8"/>
+            <constraints>
+                <constraint firstItem="Evj-WK-CIL" firstAttribute="centerY" secondItem="3wQ-zM-eA2" secondAttribute="centerY" id="0wM-r6-vNf"/>
+                <constraint firstItem="Evj-WK-CIL" firstAttribute="centerX" secondItem="3wQ-zM-eA2" secondAttribute="centerX" id="eYP-mu-7kq"/>
+            </constraints>
+            <connections>
+                <outlet property="indicator" destination="Evj-WK-CIL" id="heE-l8-zxX"/>
+            </connections>
+            <point key="canvasLocation" x="26.717557251908396" y="13.028169014084508"/>
+        </collectionReusableView>
+    </objects>
+</document>

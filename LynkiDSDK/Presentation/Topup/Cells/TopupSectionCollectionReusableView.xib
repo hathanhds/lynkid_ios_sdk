@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="BeVietnamPro-SemiBold.ttf">
+            <string>BeVietnamPro-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="TopupSectionCollectionReusableView" id="K9q-Jc-l9D" customClass="TopupSectionCollectionReusableView" customModule="LynkID" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0mi-JM-1pN">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="50"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="Gọi cấp bách" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WWh-YY-UWb">
+                            <rect key="frame" x="16" y="16" width="107" height="18"/>
+                            <fontDescription key="fontDescription" name="BeVietnamPro-SemiBold" family="Be Vietnam Pro" pointSize="16"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(Tháng)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AFu-QD-O6M">
+                            <rect key="frame" x="139" y="16" width="238" height="18"/>
+                            <fontDescription key="fontDescription" name="BeVietnamPro-SemiBold" family="Be Vietnam Pro" pointSize="16"/>
+                            <color key="textColor" red="0.65490196079999996" green="0.65490196079999996" blue="0.70196078429999997" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="WWh-YY-UWb" secondAttribute="bottom" constant="16" id="Hqf-Ip-wlZ"/>
+                        <constraint firstItem="AFu-QD-O6M" firstAttribute="top" secondItem="0mi-JM-1pN" secondAttribute="top" constant="16" id="NBS-Me-6Eb"/>
+                        <constraint firstItem="WWh-YY-UWb" firstAttribute="top" secondItem="0mi-JM-1pN" secondAttribute="top" constant="16" id="UrN-s6-Ul8"/>
+                        <constraint firstAttribute="trailing" secondItem="AFu-QD-O6M" secondAttribute="trailing" constant="16" id="jVq-C1-Dvl"/>
+                        <constraint firstItem="WWh-YY-UWb" firstAttribute="leading" secondItem="0mi-JM-1pN" secondAttribute="leading" constant="16" id="lVi-FA-gfV"/>
+                        <constraint firstItem="AFu-QD-O6M" firstAttribute="leading" secondItem="WWh-YY-UWb" secondAttribute="trailing" constant="16" id="tuJ-sp-oP9"/>
+                        <constraint firstAttribute="bottom" secondItem="AFu-QD-O6M" secondAttribute="bottom" constant="16" id="xdn-Tx-uSY"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="0mi-JM-1pN" firstAttribute="top" secondItem="K9q-Jc-l9D" secondAttribute="top" id="7ji-Fh-ySF"/>
+                <constraint firstAttribute="bottom" secondItem="0mi-JM-1pN" secondAttribute="bottom" id="kBE-6F-Kn6"/>
+                <constraint firstItem="0mi-JM-1pN" firstAttribute="leading" secondItem="K9q-Jc-l9D" secondAttribute="leading" id="wWF-SX-FC4"/>
+                <constraint firstAttribute="trailing" secondItem="0mi-JM-1pN" secondAttribute="trailing" id="y11-qd-fCP"/>
+            </constraints>
+            <connections>
+                <outlet property="titleLabel" destination="WWh-YY-UWb" id="n8O-4F-17h"/>
+            </connections>
+            <point key="canvasLocation" x="-245.03816793893128" y="-158.45070422535213"/>
+        </collectionReusableView>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

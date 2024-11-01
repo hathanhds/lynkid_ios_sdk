@@ -1,0 +1,86 @@
+PODS:
+  - Alamofire (5.9.1)
+  - CocoaLumberjack (3.8.5):
+    - CocoaLumberjack/Core (= 3.8.5)
+  - CocoaLumberjack/Core (3.8.5)
+  - EasyTipView (2.1.0)
+  - iCarousel (1.8.3)
+  - IQKeyboardManagerSwift (6.5.16)
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - Moya/RxSwift (15.0.0):
+    - Moya/Core
+    - RxSwift (~> 6.0)
+  - Pageboy (4.2.0)
+  - RxCocoa (6.7.1):
+    - RxRelay (= 6.7.1)
+    - RxSwift (= 6.7.1)
+  - RxRelay (6.7.1):
+    - RxSwift (= 6.7.1)
+  - RxSwift (6.7.1)
+  - SDWebImage (5.18.12):
+    - SDWebImage/Core (= 5.18.12)
+  - SDWebImage/Core (5.18.12)
+  - SkeletonView (1.30.4)
+  - SVGKit (3.0.0):
+    - CocoaLumberjack (~> 3.0)
+  - SVProgressHUD (2.3.1):
+    - SVProgressHUD/Core (= 2.3.1)
+  - SVProgressHUD/Core (2.3.1)
+  - SwiftyAttributes (5.4.0)
+  - Tabman (3.2.0):
+    - Pageboy (~> 4.2.0)
+
+DEPENDENCIES:
+  - EasyTipView
+  - iCarousel (~> 1.8.3)
+  - IQKeyboardManagerSwift
+  - Moya/RxSwift
+  - RxCocoa
+  - SDWebImage (~> 5.18.10)
+  - SkeletonView
+  - SVGKit
+  - SVProgressHUD
+  - SwiftyAttributes
+  - Tabman (~> 3.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - CocoaLumberjack
+    - EasyTipView
+    - iCarousel
+    - IQKeyboardManagerSwift
+    - Moya
+    - Pageboy
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SDWebImage
+    - SkeletonView
+    - SVGKit
+    - SVProgressHUD
+    - SwiftyAttributes
+    - Tabman
+
+SPEC CHECKSUMS:
+  Alamofire: f36a35757af4587d8e4f4bfa223ad10be2422b8c
+  CocoaLumberjack: 6a459bc897d6d80bd1b8c78482ec7ad05dffc3f0
+  EasyTipView: a92b6edc377b81c5ac18e9fd35d5ee78e9409488
+  iCarousel: d782f635afac190c49bb8ee455882284cff8b85f
+  IQKeyboardManagerSwift: 12d89768845bb77b55cc092ecc2b1f9370f06b76
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  Pageboy: 7f7886f61c76633df635861bf7839caf2cabdb3e
+  RxCocoa: f5609cb4637587a7faa99c5d5787e3ad582b75a4
+  RxRelay: 4151ba01152436b08271e08410135e099880eae5
+  RxSwift: b9a93a26031785159e11abd40d1a55bcb8057e52
+  SDWebImage: 2d6d229046fea284d62e36bfb8ebe8287dfc5b10
+  SkeletonView: 5a050f6411e697abd4cda0a8d767013399dccd69
+  SVGKit: 1ad7513f8c74d9652f94ed64ddecda1a23864dea
+  SVProgressHUD: 4837c74bdfe2e51e8821c397825996a8d7de6e22
+  SwiftyAttributes: 45fae22b22a246a0b7f0a8d2157a02bf89fb2e9a
+  Tabman: 49f9181a2bfe5c29d002864dac2de8e0b7ea9180
+
+PODFILE CHECKSUM: 5309abbac0f8d0cc4a312b02d3223865d5db2dfb
+
+COCOAPODS: 1.14.2

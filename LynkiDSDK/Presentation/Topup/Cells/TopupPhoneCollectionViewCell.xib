@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="BeVietnamPro-Regular.ttf">
+            <string>BeVietnamPro-Regular</string>
+        </array>
+        <array key="BeVietnamPro-SemiBold.ttf">
+            <string>BeVietnamPro-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="TopupPhoneCollectionViewCell" id="gTV-IL-0wX" customClass="TopupPhoneCollectionViewCell" customModule="LynkID" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="167" height="75"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="167" height="75"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dnd-6A-dep">
+                        <rect key="frame" x="0.0" y="0.0" width="167" height="75"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="em9-Vl-9Bx">
+                                <rect key="frame" x="0.0" y="8" width="167" height="59"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10000đ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="61H-kL-eTY">
+                                        <rect key="frame" x="0.0" y="0.0" width="167" height="19.666666666666668"/>
+                                        <fontDescription key="fontDescription" name="BeVietnamPro-SemiBold" family="Be Vietnam Pro" pointSize="14"/>
+                                        <color key="textColor" red="0.14117647058823529" green="0.14117647058823529" blue="0.14117647058823529" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qoQ-rD-Hpx">
+                                        <rect key="frame" x="0.0" y="19.666666666666664" width="167" height="19.666666666666664"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="nOS-pk-Yee">
+                                                <rect key="frame" x="27.666666666666664" y="0.0" width="111.66666666666669" height="19.666666666666668"/>
+                                                <subviews>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Cd-de-ZWa">
+                                                        <rect key="frame" x="0.0" y="0.0" width="12" height="19.666666666666668"/>
+                                                        <subviews>
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_coin_small" translatesAutoresizingMaskIntoConstraints="NO" id="Rkl-41-59H">
+                                                                <rect key="frame" x="0.0" y="4" width="12" height="12"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" constant="12" id="UQ1-9a-7iR"/>
+                                                                    <constraint firstAttribute="height" constant="12" id="Y5E-8N-9aB"/>
+                                                                </constraints>
+                                                            </imageView>
+                                                        </subviews>
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="trailing" secondItem="Rkl-41-59H" secondAttribute="trailing" id="Qft-Ar-2Ik"/>
+                                                            <constraint firstItem="Rkl-41-59H" firstAttribute="leading" secondItem="5Cd-de-ZWa" secondAttribute="leading" id="RUw-9e-oih"/>
+                                                            <constraint firstItem="Rkl-41-59H" firstAttribute="centerY" secondItem="5Cd-de-ZWa" secondAttribute="centerY" id="kma-Vg-CB3"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10000đ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dU2-zE-s0p">
+                                                        <rect key="frame" x="15.999999999999996" y="2.333333333333333" width="45.333333333333329" height="15.333333333333336"/>
+                                                        <fontDescription key="fontDescription" name="BeVietnamPro-Regular" family="Be Vietnam Pro" pointSize="12"/>
+                                                        <color key="textColor" red="0.42745098039215684" green="0.41960784313725491" blue="0.47843137254901957" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10000đ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QhX-ZP-dWT">
+                                                        <rect key="frame" x="65.333333333333329" y="2.333333333333333" width="46.333333333333329" height="15.333333333333336"/>
+                                                        <fontDescription key="fontDescription" name="BeVietnamPro-SemiBold" family="Be Vietnam Pro" pointSize="12"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="5Cd-de-ZWa" firstAttribute="top" secondItem="nOS-pk-Yee" secondAttribute="top" id="1QS-Nu-7o2"/>
+                                                    <constraint firstAttribute="bottom" secondItem="5Cd-de-ZWa" secondAttribute="bottom" id="pZA-b7-5AU"/>
+                                                </constraints>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="nOS-pk-Yee" firstAttribute="centerX" secondItem="qoQ-rD-Hpx" secondAttribute="centerX" id="Jn4-5B-VQU"/>
+                                            <constraint firstItem="nOS-pk-Yee" firstAttribute="top" secondItem="qoQ-rD-Hpx" secondAttribute="top" id="aSU-Bx-RJh"/>
+                                            <constraint firstAttribute="bottom" secondItem="nOS-pk-Yee" secondAttribute="bottom" id="bu8-Id-sTn"/>
+                                        </constraints>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hoàn 10000đ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WdK-aK-xhL">
+                                        <rect key="frame" x="0.0" y="39.333333333333336" width="167" height="19.666666666666664"/>
+                                        <fontDescription key="fontDescription" name="BeVietnamPro-Regular" family="Be Vietnam Pro" pointSize="12"/>
+                                        <color key="textColor" red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LHs-aa-geI">
+                                <rect key="frame" x="139" y="53" width="28" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="28" id="Kow-cW-L05"/>
+                                    <constraint firstAttribute="height" constant="22" id="eRI-Gn-Xl7"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94117647058823528" green="0.94117647058823528" blue="0.95686274509803915" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="LHs-aa-geI" secondAttribute="trailing" id="Pbh-0w-fIJ"/>
+                            <constraint firstAttribute="bottom" secondItem="LHs-aa-geI" secondAttribute="bottom" id="RFW-k4-39e"/>
+                            <constraint firstItem="em9-Vl-9Bx" firstAttribute="leading" secondItem="Dnd-6A-dep" secondAttribute="leading" id="c8z-0g-IIT"/>
+                            <constraint firstAttribute="trailing" secondItem="em9-Vl-9Bx" secondAttribute="trailing" id="eum-x7-inR"/>
+                            <constraint firstAttribute="bottom" secondItem="em9-Vl-9Bx" secondAttribute="bottom" constant="8" id="kg3-ui-jTx"/>
+                            <constraint firstItem="em9-Vl-9Bx" firstAttribute="top" secondItem="Dnd-6A-dep" secondAttribute="top" constant="8" id="uWe-y4-ueV"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="12"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Dnd-6A-dep" secondAttribute="bottom" id="4m8-dk-gac"/>
+                <constraint firstItem="Dnd-6A-dep" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="DlB-QQ-ne7"/>
+                <constraint firstAttribute="trailing" secondItem="Dnd-6A-dep" secondAttribute="trailing" id="Seh-dW-6Wi"/>
+                <constraint firstItem="Dnd-6A-dep" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="k1G-nd-jJU"/>
+            </constraints>
+            <size key="customSize" width="167" height="75"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                    <real key="value" value="12"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="cardPriceLabel" destination="61H-kL-eTY" id="eOT-xs-qV3"/>
+                <outlet property="cashBackLabel" destination="WdK-aK-xhL" id="Shi-ut-dXi"/>
+                <outlet property="checkBoxImageView" destination="LHs-aa-geI" id="UwV-VV-SEA"/>
+                <outlet property="coinContainerView" destination="qoQ-rD-Hpx" id="ckk-PS-NNj"/>
+                <outlet property="containerView" destination="Dnd-6A-dep" id="xwz-1r-6TP"/>
+                <outlet property="fullPriceLabel" destination="dU2-zE-s0p" id="Ta1-ph-CSQ"/>
+                <outlet property="requiredCoinLabel" destination="QhX-ZP-dWT" id="Xth-23-moO"/>
+            </connections>
+            <point key="canvasLocation" x="115.26717557251908" y="8.8028169014084519"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="ic_coin_small" width="17" height="17"/>
+    </resources>
+</document>

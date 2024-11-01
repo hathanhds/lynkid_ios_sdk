@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="BeVietnamPro-Regular.ttf">
+            <string>BeVietnamPro-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="OptionItemCollectionViewCell" id="gTV-IL-0wX" customClass="OptionItemCollectionViewCell" customModule="LynkID" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="131" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="131" height="50"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w6J-pf-gCy">
+                        <rect key="frame" x="0.0" y="0.0" width="131" height="50"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quà hiện vật" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1xq-ih-nhQ">
+                                <rect key="frame" x="16" y="16" width="86.333333333333329" height="18"/>
+                                <fontDescription key="fontDescription" name="BeVietnamPro-Regular" family="Be Vietnam Pro" pointSize="14"/>
+                                <color key="textColor" red="0.14117647059999999" green="0.14117647059999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_checked_option" translatesAutoresizingMaskIntoConstraints="NO" id="DHO-rT-QKj">
+                                <rect key="frame" x="103" y="28" width="28" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="3Hw-1X-dL6"/>
+                                    <constraint firstAttribute="width" constant="28" id="g8V-bp-YYT"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94117647059999998" green="0.94117647059999998" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="1xq-ih-nhQ" secondAttribute="trailing" constant="16" id="VJe-ZT-VER"/>
+                            <constraint firstItem="1xq-ih-nhQ" firstAttribute="leading" secondItem="w6J-pf-gCy" secondAttribute="leading" constant="16" id="Yq3-Xw-mFX"/>
+                            <constraint firstAttribute="bottom" secondItem="DHO-rT-QKj" secondAttribute="bottom" id="gPu-dQ-Gw4"/>
+                            <constraint firstItem="1xq-ih-nhQ" firstAttribute="centerY" secondItem="w6J-pf-gCy" secondAttribute="centerY" id="h8G-HA-kvb"/>
+                            <constraint firstAttribute="trailing" secondItem="DHO-rT-QKj" secondAttribute="trailing" id="xMc-s1-vk4"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="12"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="w6J-pf-gCy" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="6lx-bO-eQx"/>
+                <constraint firstItem="w6J-pf-gCy" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="egH-A4-B2M"/>
+                <constraint firstAttribute="trailing" secondItem="w6J-pf-gCy" secondAttribute="trailing" id="hod-PA-7j9"/>
+                <constraint firstAttribute="bottom" secondItem="w6J-pf-gCy" secondAttribute="bottom" id="vlp-WV-6gB"/>
+            </constraints>
+            <size key="customSize" width="131" height="50"/>
+            <connections>
+                <outlet property="containerView" destination="w6J-pf-gCy" id="ujA-oD-TZY"/>
+                <outlet property="imageView" destination="DHO-rT-QKj" id="Obd-wH-WSZ"/>
+                <outlet property="titleLabel" destination="1xq-ih-nhQ" id="Azo-eu-ui8"/>
+            </connections>
+            <point key="canvasLocation" x="-22" y="-54"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="ic_checked_option" width="27.666666030883789" height="22"/>
+    </resources>
+</document>

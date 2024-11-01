@@ -1,0 +1,51 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="   Empty State">
+<g clip-path="url(#clip0_14028_61759)">
+<rect width="40" height="40" rx="20" fill="url(#paint0_linear_14028_61759)" fill-opacity="0.2"/>
+<g id="Artwork">
+<g id="Group 152">
+<g id="bell" filter="url(#filter0_d_14028_61759)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M16.8855 8.78348C16.8855 7.30877 18.0809 6.11328 19.5557 6.11328C21.0304 6.11328 22.2259 7.30877 22.2259 8.78348V8.85784C25.3372 9.95753 27.5663 12.9248 27.5663 16.4126V22.2193H27.6111C27.6111 22.2193 27.6214 23.5533 28.5128 23.5533C28.8487 23.5533 29.2044 23.6896 29.5174 23.8594C30.1506 24.2031 30.4357 24.9225 30.4357 25.643C30.4357 27.0761 29.2739 28.2378 27.8409 28.2378H11.212C9.8112 28.2378 8.67566 27.1022 8.67566 25.7015C8.67566 24.9486 8.99642 24.2057 9.66229 23.8543C9.97972 23.6868 10.3257 23.5533 10.6217 23.5533C11.101 23.5533 11.3908 23.0666 11.5451 22.6811V16.4126C11.5451 12.9248 13.7742 9.95753 16.8855 8.85784V8.78348ZM22.7557 29.7933C22.7557 31.6048 21.2872 33.0733 19.4757 33.0733C17.6642 33.0733 16.1957 31.6048 16.1957 29.7933H22.7557Z" fill="url(#paint1_linear_14028_61759)"/>
+</g>
+<g id="face">
+<path id="Rectangle 3" opacity="0.2" fill-rule="evenodd" clip-rule="evenodd" d="M23 22.2743C23 22.064 22.8824 21.8715 22.6903 21.7859C22.1013 21.5238 20.7621 21 19.4637 21C18.1673 21 16.8708 21.5222 16.3009 21.7848C16.1134 21.8711 16 22.0606 16 22.267C16 22.6919 16.4624 22.9779 16.8589 22.8249C17.5248 22.5679 18.4972 22.2764 19.4813 22.2764C20.4752 22.2764 21.469 22.5737 22.1457 22.8325C22.5414 22.9838 23 22.698 23 22.2743Z" fill="black"/>
+<path id="Rectangle 3 Copy" opacity="0.2" fill-rule="evenodd" clip-rule="evenodd" d="M15 16.8561C15 16.7704 15.0263 16.687 15.0805 16.6207C15.2444 16.4204 15.6334 16 16.0104 16C16.3894 16 16.7685 16.4251 16.9251 16.624C16.9757 16.6883 17 16.7682 17 16.8501V16.9025C17 17.2873 16.3902 17.4488 16.0053 17.4488C15.6132 17.4488 15 17.2867 15 16.8946V16.8561Z" fill="black"/>
+<path id="Rectangle 3 Copy 2" opacity="0.2" fill-rule="evenodd" clip-rule="evenodd" d="M22 16.8561C22 16.7704 22.0263 16.687 22.0805 16.6207C22.2444 16.4204 22.6334 16 23.0104 16C23.3894 16 23.7685 16.4251 23.9251 16.624C23.9757 16.6883 24 16.7682 24 16.8501V16.9025C24 17.2873 23.3902 17.4488 23.0053 17.4488C22.6132 17.4488 22 17.2867 22 16.8946V16.8561Z" fill="black"/>
+</g>
+</g>
+<path id="line" opacity="0.1" d="M10.6041 12.1043C10.2936 10.3813 11.6678 8.34356 13.2768 7.91992" stroke="url(#paint2_linear_14028_61759)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="line_2" opacity="0.1" d="M8.05714 11.4166C7.65515 9.18618 9.43401 6.5484 11.5168 6" stroke="url(#paint3_linear_14028_61759)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_14028_61759" x="-16.3243" y="-5.88672" width="71.76" height="76.96" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="13"/>
+<feGaussianBlur stdDeviation="12.5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.226735 0 0 0 0 0.437054 0 0 0 0 0.687819 0 0 0 0.0769928 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_14028_61759"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_14028_61759" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear_14028_61759" x1="-7.66667" y1="-3" x2="44.6667" y2="45.3333" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFD833"/>
+<stop offset="1" stop-color="#FE9E32"/>
+</linearGradient>
+<linearGradient id="paint1_linear_14028_61759" x1="4.50499" y1="4.09128" x2="38.4152" y2="29.369" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFD10F"/>
+<stop offset="1" stop-color="#FE9E32"/>
+</linearGradient>
+<linearGradient id="paint2_linear_14028_61759" x1="10.0393" y1="7.60609" x2="14.8837" y2="10.511" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFD10F"/>
+<stop offset="1" stop-color="#FE9E32"/>
+</linearGradient>
+<linearGradient id="paint3_linear_14028_61759" x1="7.32595" y1="5.59375" x2="13.5969" y2="9.35407" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFD10F"/>
+<stop offset="1" stop-color="#FE9E32"/>
+</linearGradient>
+<clipPath id="clip0_14028_61759">
+<rect width="40" height="40" rx="20" fill="white"/>
+</clipPath>
+</defs>
+</svg>

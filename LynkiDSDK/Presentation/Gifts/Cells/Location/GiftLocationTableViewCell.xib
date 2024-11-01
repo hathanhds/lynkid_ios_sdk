@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="BeVietnamPro-Regular.ttf">
+            <string>BeVietnamPro-Regular</string>
+        </array>
+        <array key="BeVietnamPro-SemiBold.ttf">
+            <string>BeVietnamPro-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="GiftLocationTableViewCell" rowHeight="120" id="JB0-PH-pO2" customClass="GiftLocationTableViewCell" customModule="LynkID" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="343" height="120"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="JB0-PH-pO2" id="8Dr-01-z2t">
+                <rect key="frame" x="0.0" y="0.0" width="343" height="120"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_location_gray" translatesAutoresizingMaskIntoConstraints="NO" id="0rn-e3-zfO">
+                        <rect key="frame" x="0.0" y="48" width="24" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="24" id="d7b-Mp-OqV"/>
+                            <constraint firstAttribute="height" constant="24" id="fsW-82-uK6"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NNa-cd-N8K">
+                        <rect key="frame" x="34" y="12" width="273" height="95"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="VinWonders Phú Quốc" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GGs-H8-qwm">
+                                <rect key="frame" x="0.0" y="0.0" width="273" height="51.333333333333336"/>
+                                <fontDescription key="fontDescription" name="BeVietnamPro-SemiBold" family="Be Vietnam Pro" pointSize="14"/>
+                                <color key="textColor" red="0.14117647059999999" green="0.14117647059999999" blue="0.14117647059999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="130 Trần Đăng Ninh, Phường Ba Đình, Quận Hoàn Kiếm, Hà Nội" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KZV-Kb-gZV">
+                                <rect key="frame" x="0.0" y="59.333333333333329" width="273" height="35.666666666666671"/>
+                                <fontDescription key="fontDescription" name="BeVietnamPro-Regular" family="Be Vietnam Pro" pointSize="14"/>
+                                <color key="textColor" red="0.14117647059999999" green="0.14117647059999999" blue="0.14117647059999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="KZV-Kb-gZV" firstAttribute="leading" secondItem="NNa-cd-N8K" secondAttribute="leading" id="5Gt-ZS-Ihj"/>
+                            <constraint firstItem="GGs-H8-qwm" firstAttribute="leading" secondItem="NNa-cd-N8K" secondAttribute="leading" id="PYD-6q-GI8"/>
+                            <constraint firstItem="KZV-Kb-gZV" firstAttribute="top" secondItem="GGs-H8-qwm" secondAttribute="bottom" constant="8" id="f8g-sV-cZd"/>
+                            <constraint firstAttribute="trailing" secondItem="GGs-H8-qwm" secondAttribute="trailing" id="qii-rO-E96"/>
+                            <constraint firstAttribute="bottom" secondItem="KZV-Kb-gZV" secondAttribute="bottom" id="spQ-JK-Ufh"/>
+                            <constraint firstAttribute="trailing" secondItem="KZV-Kb-gZV" secondAttribute="trailing" id="x5Y-Rf-OMu"/>
+                            <constraint firstItem="GGs-H8-qwm" firstAttribute="top" secondItem="NNa-cd-N8K" secondAttribute="top" id="yoQ-aZ-WmZ"/>
+                        </constraints>
+                    </view>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_copy_gray" translatesAutoresizingMaskIntoConstraints="NO" id="eoQ-0p-eme">
+                        <rect key="frame" x="319" y="48" width="24" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="24" id="H8f-tT-9le"/>
+                            <constraint firstAttribute="height" constant="24" id="d1i-LO-P3Y"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pir-LU-nTq">
+                        <rect key="frame" x="40" y="119" width="263" height="1"/>
+                        <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.96470588235294119" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="se5-fn-Fvt"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="eoQ-0p-eme" secondAttribute="trailing" id="4QU-bX-ZCh"/>
+                    <constraint firstItem="eoQ-0p-eme" firstAttribute="leading" secondItem="pir-LU-nTq" secondAttribute="trailing" constant="16" id="4ce-Px-2Fo"/>
+                    <constraint firstItem="eoQ-0p-eme" firstAttribute="centerY" secondItem="8Dr-01-z2t" secondAttribute="centerY" id="J9n-Qv-zsn"/>
+                    <constraint firstItem="eoQ-0p-eme" firstAttribute="leading" secondItem="NNa-cd-N8K" secondAttribute="trailing" constant="12" id="TJ0-e8-Tcd"/>
+                    <constraint firstAttribute="bottom" secondItem="pir-LU-nTq" secondAttribute="bottom" id="UwA-Zh-5Hd"/>
+                    <constraint firstItem="pir-LU-nTq" firstAttribute="top" secondItem="NNa-cd-N8K" secondAttribute="bottom" constant="12" id="aKy-sZ-hHu"/>
+                    <constraint firstItem="0rn-e3-zfO" firstAttribute="leading" secondItem="8Dr-01-z2t" secondAttribute="leading" id="bIx-lV-EcC"/>
+                    <constraint firstItem="0rn-e3-zfO" firstAttribute="centerY" secondItem="8Dr-01-z2t" secondAttribute="centerY" id="cWS-vt-MXT"/>
+                    <constraint firstItem="NNa-cd-N8K" firstAttribute="top" secondItem="8Dr-01-z2t" secondAttribute="top" constant="12" id="d82-Jg-eNU"/>
+                    <constraint firstItem="pir-LU-nTq" firstAttribute="leading" secondItem="0rn-e3-zfO" secondAttribute="trailing" constant="16" id="joB-9v-Vil"/>
+                    <constraint firstItem="NNa-cd-N8K" firstAttribute="leading" secondItem="0rn-e3-zfO" secondAttribute="trailing" constant="10" id="rA1-Cr-Pkg"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="addressLabel" destination="KZV-Kb-gZV" id="U1P-DV-4Td"/>
+                <outlet property="containerView" destination="NNa-cd-N8K" id="N2v-bc-iyl"/>
+                <outlet property="copyImageView" destination="eoQ-0p-eme" id="Mo5-s2-fva"/>
+                <outlet property="locationImageView" destination="0rn-e3-zfO" id="Peu-Mn-aUZ"/>
+                <outlet property="nameLabel" destination="GGs-H8-qwm" id="i0I-ja-vjb"/>
+                <outlet property="separatorView" destination="pir-LU-nTq" id="yWl-YF-N07"/>
+            </connections>
+            <point key="canvasLocation" x="262" y="-11"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_copy_gray" width="24" height="24"/>
+        <image name="ic_location_gray" width="24" height="24"/>
+    </resources>
+</document>

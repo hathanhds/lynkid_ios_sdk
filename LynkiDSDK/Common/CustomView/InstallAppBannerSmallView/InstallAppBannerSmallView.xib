@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="BeVietnamPro-Regular.ttf">
+            <string>BeVietnamPro-Regular</string>
+        </array>
+        <array key="BeVietnamPro-SemiBold.ttf">
+            <string>BeVietnamPro-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="InstallAppBannerSmallView" customModule="LynkID" customModuleProvider="target">
+            <connections>
+                <outlet property="installButton" destination="XFo-ik-Ccd" id="Q1k-VV-5as"/>
+                <outlet property="view" destination="ONG-ty-Q8T" id="ypO-w3-5J3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="ONG-ty-Q8T">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tzU-js-v6v">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="qNb-N9-uXC">
+                            <rect key="frame" x="12" y="12" width="351" height="56"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_download_banner" translatesAutoresizingMaskIntoConstraints="NO" id="aFg-Bu-kEM">
+                                    <rect key="frame" x="0.0" y="0.0" width="56" height="56"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" secondItem="aFg-Bu-kEM" secondAttribute="height" id="K5w-hC-6bd"/>
+                                    </constraints>
+                                </imageView>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="F2z-NR-SpM">
+                                    <rect key="frame" x="64" y="0.0" width="204" height="56"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tải app LynkiD" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Jc-ry-vXk">
+                                            <rect key="frame" x="0.0" y="0.0" width="204" height="18"/>
+                                            <fontDescription key="fontDescription" name="BeVietnamPro-SemiBold" family="Be Vietnam Pro" pointSize="14"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Rất nhiều tính năng và ưu đãi độc quyền đang chờ đợi bạn." textAlignment="natural" lineBreakMode="headTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zva-Ly-9BO">
+                                            <rect key="frame" x="0.0" y="18" width="204" height="38"/>
+                                            <fontDescription key="fontDescription" name="BeVietnamPro-Regular" family="Be Vietnam Pro" pointSize="12"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="7Jc-ry-vXk" firstAttribute="leading" secondItem="F2z-NR-SpM" secondAttribute="leading" id="JI8-tY-Oi7"/>
+                                        <constraint firstAttribute="trailing" secondItem="7Jc-ry-vXk" secondAttribute="trailing" id="Jkf-ir-CkZ"/>
+                                        <constraint firstItem="Zva-Ly-9BO" firstAttribute="leading" secondItem="F2z-NR-SpM" secondAttribute="leading" id="a56-Hd-P7f"/>
+                                        <constraint firstAttribute="trailing" secondItem="Zva-Ly-9BO" secondAttribute="trailing" id="ahc-RF-JTG"/>
+                                    </constraints>
+                                </stackView>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hbl-f6-BXY">
+                                    <rect key="frame" x="276" y="0.0" width="75" height="56"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XFo-ik-Ccd">
+                                            <rect key="frame" x="0.0" y="14" width="75" height="28"/>
+                                            <color key="backgroundColor" red="1" green="0.70588235294117641" blue="0.0" alpha="0.89803921568627454" colorSpace="calibratedRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="75" id="PPp-VJ-Vrb"/>
+                                                <constraint firstAttribute="height" constant="28" id="ZX0-eF-8Qs"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="BeVietnamPro-SemiBold" family="Be Vietnam Pro" pointSize="12"/>
+                                            <color key="tintColor" red="0.14117647058823529" green="0.14117647058823529" blue="0.14117647058823529" alpha="0.89803921568627454" colorSpace="calibratedRGB"/>
+                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                            <state key="normal" title="Tải ngay"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                    <real key="value" value="8"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                            <connections>
+                                                <action selector="installAppAction:" destination="-1" eventType="touchUpInside" id="S2z-sv-ozP"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstItem="XFo-ik-Ccd" firstAttribute="leading" secondItem="hbl-f6-BXY" secondAttribute="leading" id="0iV-B9-IYU"/>
+                                        <constraint firstItem="XFo-ik-Ccd" firstAttribute="centerY" secondItem="hbl-f6-BXY" secondAttribute="centerY" id="GyQ-uY-hbe"/>
+                                        <constraint firstAttribute="trailing" secondItem="XFo-ik-Ccd" secondAttribute="trailing" id="hIt-FK-jNq"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="qNb-N9-uXC" secondAttribute="trailing" constant="12" id="3D2-qD-Qek"/>
+                        <constraint firstItem="qNb-N9-uXC" firstAttribute="leading" secondItem="tzU-js-v6v" secondAttribute="leading" constant="12" id="XZv-Oe-7hS"/>
+                        <constraint firstAttribute="bottom" secondItem="qNb-N9-uXC" secondAttribute="bottom" constant="12" id="aI9-wa-4g3"/>
+                        <constraint firstItem="qNb-N9-uXC" firstAttribute="top" secondItem="tzU-js-v6v" secondAttribute="top" constant="12" id="fgz-Qw-IEU"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="12"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.40000000000000002" green="0.21176470589999999" blue="0.57254901960000004" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="tzU-js-v6v" firstAttribute="leading" secondItem="ONG-ty-Q8T" secondAttribute="leading" id="0Ma-6b-AEK"/>
+                <constraint firstAttribute="bottom" secondItem="tzU-js-v6v" secondAttribute="bottom" id="dtu-Ps-vDs"/>
+                <constraint firstAttribute="trailing" secondItem="tzU-js-v6v" secondAttribute="trailing" id="yIl-vr-hIY"/>
+                <constraint firstItem="tzU-js-v6v" firstAttribute="top" secondItem="ONG-ty-Q8T" secondAttribute="top" id="yvD-dx-P1V"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-280.15267175572518" y="344.36619718309862"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="img_download_banner" width="48" height="48"/>
+    </resources>
+</document>

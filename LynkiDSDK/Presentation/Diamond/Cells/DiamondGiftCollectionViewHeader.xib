@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="BeVietnamPro-Regular.ttf">
+            <string>BeVietnamPro-Regular</string>
+        </array>
+        <array key="BeVietnamPro-SemiBold.ttf">
+            <string>BeVietnamPro-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="DiamondGiftCollectionViewHeader" id="FA8-8J-q0l" customClass="DiamondGiftCollectionViewHeader" customModule="LynkID" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="103"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TQt-wS-vAF">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="83"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rKO-uE-W4C">
+                            <rect key="frame" x="20" y="12" width="353" height="44"/>
+                            <fontDescription key="fontDescription" name="BeVietnamPro-SemiBold" family="Be Vietnam Pro" pointSize="14"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tCz-TY-lbz">
+                            <rect key="frame" x="20" y="55.666666666666664" width="353" height="15.333333333333336"/>
+                            <fontDescription key="fontDescription" name="BeVietnamPro-Regular" family="Be Vietnam Pro" pointSize="12"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.20000000000000001" green="0.1764705882352941" blue="0.1803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="tCz-TY-lbz" firstAttribute="leading" secondItem="TQt-wS-vAF" secondAttribute="leading" constant="20" id="Brn-5w-K2v"/>
+                        <constraint firstAttribute="bottom" secondItem="tCz-TY-lbz" secondAttribute="bottom" constant="12" id="HOV-AN-89k"/>
+                        <constraint firstItem="tCz-TY-lbz" firstAttribute="top" secondItem="rKO-uE-W4C" secondAttribute="bottom" constant="4" id="Ytj-Zf-X91"/>
+                        <constraint firstItem="rKO-uE-W4C" firstAttribute="leading" secondItem="TQt-wS-vAF" secondAttribute="leading" constant="20" id="mE3-eo-XOX"/>
+                        <constraint firstItem="rKO-uE-W4C" firstAttribute="top" secondItem="TQt-wS-vAF" secondAttribute="top" constant="12" id="nEw-nP-Mh8"/>
+                        <constraint firstAttribute="trailing" secondItem="tCz-TY-lbz" secondAttribute="trailing" constant="20" id="qvg-VE-Uzs"/>
+                        <constraint firstAttribute="trailing" secondItem="rKO-uE-W4C" secondAttribute="trailing" constant="20" id="rVa-fe-vTf"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="TQt-wS-vAF" firstAttribute="top" secondItem="FA8-8J-q0l" secondAttribute="top" id="Pla-EM-BOc"/>
+                <constraint firstAttribute="bottom" secondItem="TQt-wS-vAF" secondAttribute="bottom" constant="20" id="b3I-gI-nX2"/>
+                <constraint firstItem="TQt-wS-vAF" firstAttribute="leading" secondItem="FA8-8J-q0l" secondAttribute="leading" id="gMq-TV-zCt"/>
+                <constraint firstAttribute="trailing" secondItem="TQt-wS-vAF" secondAttribute="trailing" id="hz5-GA-aZe"/>
+            </constraints>
+            <connections>
+                <outlet property="containerView" destination="TQt-wS-vAF" id="SDd-3c-z3Q"/>
+                <outlet property="descLabel" destination="tCz-TY-lbz" id="r3k-Bo-c3s"/>
+                <outlet property="titleLabel" destination="rKO-uE-W4C" id="anB-aN-XAB"/>
+            </connections>
+            <point key="canvasLocation" x="130.53435114503816" y="12.323943661971832"/>
+        </collectionReusableView>
+    </objects>
+</document>

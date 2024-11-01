@@ -1,0 +1,17 @@
+<svg width="29" height="28" viewBox="0 0 29 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="phone-mobile-3g/4g">
+<g id="mobile">
+<path id="Vector" d="M23.5834 8.16665V19.8333C23.5834 24.5 22.4167 25.6666 17.75 25.6666H10.75C6.08335 25.6666 4.91669 24.5 4.91669 19.8333V8.16665C4.91669 3.49998 6.08335 2.33331 10.75 2.33331H17.75C22.4167 2.33331 23.5834 3.49998 23.5834 8.16665Z" stroke="#242424" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M25.5834 10.1666V21.8333C25.5834 26.5 24.4167 27.6666 19.75 27.6666H12.75C8.08335 27.6666 6.91669 26.5 6.91669 21.8333V10.1666C6.91669 5.49998 8.08335 4.33331 12.75 4.33331H19.75C24.4167 4.33331 25.5834 5.49998 25.5834 10.1666Z" fill="url(#paint0_linear_11601_125361)"/>
+<path id="Vector_3" d="M18.9167 12.6764C17.5803 11.6436 15.939 11.0833 14.25 11.0833C12.561 11.0833 10.9198 11.6436 9.58337 12.6764" stroke="#872BD6" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M11.5284 15.5116C12.3082 14.9098 13.2654 14.5833 14.2504 14.5833C15.2354 14.5833 16.1927 14.9098 16.9724 15.5116" stroke="#872BD6" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_5" d="M14.25 22.2833C15.2488 22.2833 16.0584 21.4737 16.0584 20.475C16.0584 19.4762 15.2488 18.6666 14.25 18.6666C13.2513 18.6666 12.4417 19.4762 12.4417 20.475C12.4417 21.4737 13.2513 22.2833 14.25 22.2833Z" stroke="#872BD6" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_11601_125361" x1="8.47224" y1="4.33331" x2="20.2507" y2="22.6554" gradientUnits="userSpaceOnUse">
+<stop stop-color="#872BD6" stop-opacity="0.4"/>
+<stop offset="1" stop-color="#872BD6" stop-opacity="0"/>
+</linearGradient>
+</defs>
+</svg>

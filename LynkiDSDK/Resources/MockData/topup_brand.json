@@ -1,0 +1,135 @@
+{
+    "data": [
+        {
+            "brandMapping": {
+                "id": 0,
+                    "code": null,
+                    "brandId": 1142,
+                    "brandName": "YTVinaphone Datacode",
+                    "vendorId": null,
+                    "thirdPartyBrandId": "Data",
+                    "thirdPartyBrandName": null,
+                    "isActive": false,
+                    "linkLogo": "https://linkidstorage.s3-ap-southeast-1.amazonaws.com/upload-gift/132930c3e46b77c4d67a4db02be5c2fe.jpg",
+                    "commissPercent": 0
+            }
+        },
+        {
+            "brandMapping": {
+                "id": 0,
+                    "code": null,
+                    "brandId": 1141,
+                    "brandName": "YTMobifone Datacode",
+                    "vendorId": null,
+                    "thirdPartyBrandId": "Data",
+                    "thirdPartyBrandName": null,
+                    "isActive": false,
+                    "linkLogo": "https://linkidstorage.s3-ap-southeast-1.amazonaws.com/upload-gift/12e91434865a018e66b7153f9bd903be.png",
+                    "commissPercent": 0
+            }
+        },
+        {
+            "brandMapping": {
+                "id": 0,
+                    "code": null,
+                    "brandId": 1140,
+                    "brandName": "YTViettel Datacode",
+                    "vendorId": null,
+                    "thirdPartyBrandId": "Data",
+                    "thirdPartyBrandName": null,
+                    "isActive": false,
+                    "linkLogo": "https://linkidstorage.s3-ap-southeast-1.amazonaws.com/upload-gift/b1de2bfc651c76f957dbac00830b73b8.jpg",
+                    "commissPercent": 35
+            }
+        },
+        {
+            "brandMapping": {
+                "id": 0,
+                    "code": null,
+                    "brandId": 1139,
+                    "brandName": "YTVietnamobile",
+                    "vendorId": null,
+                    "thirdPartyBrandId": "",
+                    "thirdPartyBrandName": null,
+                    "isActive": false,
+                    "linkLogo": "https://linkidstorage.s3-ap-southeast-1.amazonaws.com/upload-gift/fc651ceab2e82c3968e17839ccd6b686.jpg",
+                    "commissPercent": 10
+            }
+        },
+        {
+            "brandMapping": {
+                "id": 0,
+                    "code": null,
+                    "brandId": 1138,
+                    "brandName": "YTBeeline",
+                    "vendorId": null,
+                    "thirdPartyBrandId": "",
+                    "thirdPartyBrandName": null,
+                    "isActive": false,
+                    "linkLogo": "https://linkidstorage.s3-ap-southeast-1.amazonaws.com/upload-gift/4e0ed425bcf0b1b03fbfd1d9465a221c.png",
+                    "commissPercent": 0
+            }
+        },
+        {
+            "brandMapping": {
+                "id": 0,
+                    "code": null,
+                    "brandId": 1137,
+                    "brandName": "YTViettel",
+                    "vendorId": null,
+                    "thirdPartyBrandId": "",
+                    "thirdPartyBrandName": null,
+                    "isActive": false,
+                    "linkLogo": "https://linkidstorage.s3-ap-southeast-1.amazonaws.com/upload-gift/ebc7bcb74117cec7b6bc638c7710d437.jpg",
+                    "commissPercent": 20
+            }
+        },
+        {
+            "brandMapping": {
+                "id": 0,
+                    "code": null,
+                    "brandId": 1136,
+                    "brandName": "YTMobifone",
+                    "vendorId": null,
+                    "thirdPartyBrandId": "",
+                    "thirdPartyBrandName": null,
+                    "isActive": false,
+                    "linkLogo": "https://linkidstorage.s3-ap-southeast-1.amazonaws.com/upload-gift/ef82741a259a79d587035ad2255e5d23.png",
+                    "commissPercent": 0
+            }
+        },
+        {
+            "brandMapping": {
+                "id": 0,
+                    "code": null,
+                    "brandId": 1135,
+                    "brandName": "YTVinaphone",
+                    "vendorId": null,
+                    "thirdPartyBrandId": "",
+                    "thirdPartyBrandName": null,
+                    "isActive": false,
+                    "linkLogo": "https://linkidstorage.s3-ap-southeast-1.amazonaws.com/upload-gift/1130765c7948f8a71a1aca06b5c363c6.jpg",
+                    "commissPercent": 0
+            }
+        },
+        {
+            "brandMapping": {
+                "id": 0,
+                    "code": null,
+                    "brandId": 4815,
+                    "brandName": "Reddi",
+                    "vendorId": null,
+                    "thirdPartyBrandId": "",
+                    "thirdPartyBrandName": null,
+                    "isActive": false,
+                    "linkLogo": "https://linkidstorage.s3-ap-southeast-1.amazonaws.com/upload-gift/a17a6129ee8b18d51d2af7458e586430.png",
+                    "commissPercent": 0
+            }
+        }
+    ],
+        "targetUrl": null,
+        "success": true,
+        "error": null,
+        "unAuthorizedRequest": false,
+        "__abp": true
+}

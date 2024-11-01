@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="BeVietnamPro-Regular.ttf">
+            <string>BeVietnamPro-Regular</string>
+        </array>
+        <array key="BeVietnamPro-SemiBold.ttf">
+            <string>BeVietnamPro-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="TransactionItemTableViewCell" rowHeight="155" id="OYw-qm-fG7" customClass="TransactionItemTableViewCell" customModule="LynkID" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="155"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="OYw-qm-fG7" id="ab5-pu-x34">
+                <rect key="frame" x="0.0" y="0.0" width="393" height="155"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0G0-Vi-gOF">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="154"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="EMo-AY-E1X">
+                                <rect key="frame" x="20" y="57" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Vef-pJ-g7Y"/>
+                                    <constraint firstAttribute="width" secondItem="EMo-AY-E1X" secondAttribute="height" multiplier="1:1" id="gUf-o3-J7d"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jjZ-jK-Z8x">
+                                <rect key="frame" x="68" y="20" width="305" height="90"/>
+                                <fontDescription key="fontDescription" name="BeVietnamPro-Regular" family="Be Vietnam Pro" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rSG-jX-XlT">
+                                <rect key="frame" x="68" y="116" width="33" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="18" id="EYo-mR-9qk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="BeVietnamPro-Regular" family="Be Vietnam Pro" pointSize="12"/>
+                                <color key="textColor" red="0.5607843137254902" green="0.5725490196078431" blue="0.63137254901960782" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pbI-KN-SaI">
+                                <rect key="frame" x="310.33333333333331" y="116" width="39.333333333333314" height="18"/>
+                                <fontDescription key="fontDescription" name="BeVietnamPro-SemiBold" family="Be Vietnam Pro" pointSize="14"/>
+                                <color key="textColor" red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_coin_small" translatesAutoresizingMaskIntoConstraints="NO" id="TAN-Cw-akJ">
+                                <rect key="frame" x="357.66666666666669" y="118" width="15.333333333333314" height="14.333333333333343"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="TAN-Cw-akJ" secondAttribute="height" multiplier="16:15" id="8Fx-11-rIZ"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="rSG-jX-XlT" firstAttribute="leading" secondItem="EMo-AY-E1X" secondAttribute="trailing" constant="8" id="7xb-3H-NFi"/>
+                            <constraint firstItem="TAN-Cw-akJ" firstAttribute="centerY" secondItem="pbI-KN-SaI" secondAttribute="centerY" id="Cqj-E3-Aoe"/>
+                            <constraint firstItem="TAN-Cw-akJ" firstAttribute="leading" secondItem="pbI-KN-SaI" secondAttribute="trailing" constant="8" id="IfM-kW-QVI"/>
+                            <constraint firstAttribute="trailing" secondItem="jjZ-jK-Z8x" secondAttribute="trailing" constant="20" id="LWk-1Q-Qvi"/>
+                            <constraint firstItem="pbI-KN-SaI" firstAttribute="top" secondItem="rSG-jX-XlT" secondAttribute="top" id="Lqz-sN-sXC"/>
+                            <constraint firstItem="jjZ-jK-Z8x" firstAttribute="top" secondItem="0G0-Vi-gOF" secondAttribute="top" constant="20" id="Rjm-x1-rfs"/>
+                            <constraint firstItem="EMo-AY-E1X" firstAttribute="leading" secondItem="0G0-Vi-gOF" secondAttribute="leading" constant="20" id="WWC-7Q-XF7"/>
+                            <constraint firstItem="EMo-AY-E1X" firstAttribute="centerY" secondItem="0G0-Vi-gOF" secondAttribute="centerY" id="dhB-73-oxN"/>
+                            <constraint firstAttribute="bottom" secondItem="rSG-jX-XlT" secondAttribute="bottom" constant="20" id="n0L-jy-jrU"/>
+                            <constraint firstItem="pbI-KN-SaI" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="rSG-jX-XlT" secondAttribute="trailing" constant="10" id="nIZ-TT-vdj"/>
+                            <constraint firstAttribute="trailing" secondItem="TAN-Cw-akJ" secondAttribute="trailing" constant="20" id="nzV-ra-GBL"/>
+                            <constraint firstItem="jjZ-jK-Z8x" firstAttribute="leading" secondItem="EMo-AY-E1X" secondAttribute="trailing" constant="8" id="tlc-FJ-GBC"/>
+                            <constraint firstItem="rSG-jX-XlT" firstAttribute="top" secondItem="jjZ-jK-Z8x" secondAttribute="bottom" constant="6" id="vGT-Yw-9wj"/>
+                            <constraint firstItem="pbI-KN-SaI" firstAttribute="bottom" secondItem="rSG-jX-XlT" secondAttribute="bottom" id="xsM-Xj-1pU"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Ae-iC-WOV">
+                        <rect key="frame" x="16" y="16" width="361" height="0.0"/>
+                        <fontDescription key="fontDescription" name="BeVietnamPro-SemiBold" family="Be Vietnam Pro" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uTA-He-lGS">
+                        <rect key="frame" x="16" y="154" width="361" height="1"/>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.96470588239999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="Q9Q-Of-ul3"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="uTA-He-lGS" secondAttribute="trailing" constant="16" id="ANl-BP-al9"/>
+                    <constraint firstItem="0G0-Vi-gOF" firstAttribute="top" secondItem="ab5-pu-x34" secondAttribute="top" priority="750" id="IkI-ec-aFx"/>
+                    <constraint firstItem="0G0-Vi-gOF" firstAttribute="leading" secondItem="ab5-pu-x34" secondAttribute="leading" id="N0K-Tv-FKl"/>
+                    <constraint firstItem="uTA-He-lGS" firstAttribute="leading" secondItem="ab5-pu-x34" secondAttribute="leading" constant="16" id="NWz-k7-07L"/>
+                    <constraint firstItem="0G0-Vi-gOF" firstAttribute="top" secondItem="5Ae-iC-WOV" secondAttribute="bottom" priority="250" constant="6" id="V4U-C5-B4l"/>
+                    <constraint firstAttribute="trailing" secondItem="5Ae-iC-WOV" secondAttribute="trailing" constant="16" id="eE8-fo-TmX"/>
+                    <constraint firstAttribute="trailing" secondItem="0G0-Vi-gOF" secondAttribute="trailing" id="iF7-5s-hSN"/>
+                    <constraint firstItem="5Ae-iC-WOV" firstAttribute="leading" secondItem="ab5-pu-x34" secondAttribute="leading" constant="16" id="jJe-re-47u"/>
+                    <constraint firstItem="5Ae-iC-WOV" firstAttribute="top" secondItem="ab5-pu-x34" secondAttribute="top" constant="16" id="lfW-zx-MWV"/>
+                    <constraint firstItem="uTA-He-lGS" firstAttribute="top" secondItem="0G0-Vi-gOF" secondAttribute="bottom" id="psJ-rg-XuX"/>
+                    <constraint firstAttribute="bottom" secondItem="uTA-He-lGS" secondAttribute="bottom" id="y2w-6q-W0X"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="brandImageView" destination="EMo-AY-E1X" id="YyW-co-dDa"/>
+                <outlet property="coinLabel" destination="pbI-KN-SaI" id="mBC-bZ-kEw"/>
+                <outlet property="containerView" destination="0G0-Vi-gOF" id="USc-lt-8CL"/>
+                <outlet property="dateLabel" destination="rSG-jX-XlT" id="vto-e6-aI9"/>
+                <outlet property="lcContainerViewTopToSuperviewTop" destination="IkI-ec-aFx" id="h3W-Z1-sz1"/>
+                <outlet property="lcContainerViewTopToTitleLabelBottom" destination="V4U-C5-B4l" id="Sa8-Hi-YqL"/>
+                <outlet property="nameLabel" destination="jjZ-jK-Z8x" id="Ido-0z-hOd"/>
+                <outlet property="titleLabel" destination="5Ae-iC-WOV" id="qLM-du-C9z"/>
+            </connections>
+            <point key="canvasLocation" x="-211.4503816793893" y="-129.92957746478874"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_coin_small" width="14" height="14.333333015441895"/>
+    </resources>
+</document>

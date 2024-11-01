@@ -1,0 +1,17 @@
+//
+//  PROD.xcconfig
+//  LinkIDApp
+//
+//  Created by ThanhNTH on 17/01/2024.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+SPLASH = /
+
+PRODUCT_NAME = LynkID
+BASE_URL = https:${SPLASH}/vpid-mobile-api.linkid.vn
+PRODUCT_BUNDLE_IDENTIFIER = com.linkid.online
+MARKETING_VERSION = 1.0
+BUILD_NUMBER = 1

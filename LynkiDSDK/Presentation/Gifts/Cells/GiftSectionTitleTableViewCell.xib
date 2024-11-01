@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="BeVietnamPro-SemiBold.ttf">
+            <string>BeVietnamPro-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="GiftSectionTitleTableViewCell" rowHeight="55" id="abb-q8-KZA" customClass="GiftSectionTitleTableViewCell" customModule="LynkID" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="55"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="abb-q8-KZA" id="nVr-kK-17C">
+                <rect key="frame" x="0.0" y="0.0" width="393" height="55"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tất cả ưu đãi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lLC-nW-UFO">
+                        <rect key="frame" x="16" y="16" width="361" height="23"/>
+                        <fontDescription key="fontDescription" name="BeVietnamPro-SemiBold" family="Be Vietnam Pro" pointSize="18"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="lLC-nW-UFO" firstAttribute="leading" secondItem="nVr-kK-17C" secondAttribute="leading" constant="16" id="1YC-mx-VBx"/>
+                    <constraint firstAttribute="bottom" secondItem="lLC-nW-UFO" secondAttribute="bottom" constant="16" id="EJ1-2G-mHr"/>
+                    <constraint firstItem="lLC-nW-UFO" firstAttribute="top" secondItem="nVr-kK-17C" secondAttribute="top" constant="16" id="dfm-tP-plz"/>
+                    <constraint firstAttribute="trailing" secondItem="lLC-nW-UFO" secondAttribute="trailing" constant="16" id="hEa-yT-m7o"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="titleLabel" destination="lLC-nW-UFO" id="gP4-iH-c8B"/>
+            </connections>
+            <point key="canvasLocation" x="-731" y="20"/>
+        </tableViewCell>
+    </objects>
+</document>

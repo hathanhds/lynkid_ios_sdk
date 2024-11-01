@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="BeVietnamPro-Regular.ttf">
+            <string>BeVietnamPro-Regular</string>
+        </array>
+        <array key="BeVietnamPro-SemiBold.ttf">
+            <string>BeVietnamPro-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="InstallAppBannerView" customModule="LynkID" customModuleProvider="target">
+            <connections>
+                <outlet property="installButton" destination="XFo-ik-Ccd" id="sb8-Qx-QFO"/>
+                <outlet property="view" destination="iN0-l3-epB" id="zMm-AW-6bL"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="116"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QB1-VI-DZW">
+                    <rect key="frame" x="12" y="12" width="369" height="92"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tải app LynkiD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Jc-ry-vXk">
+                            <rect key="frame" x="0.0" y="0.0" width="150" height="18"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="150" id="1ke-87-DLi"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="BeVietnamPro-SemiBold" family="Be Vietnam Pro" pointSize="14"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rất nhiều tính năng và ưu đãi độc quyền đang chờ đợi bạn." textAlignment="natural" lineBreakMode="headTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zva-Ly-9BO">
+                            <rect key="frame" x="0.0" y="22" width="261" height="30.666666666666671"/>
+                            <fontDescription key="fontDescription" name="BeVietnamPro-Regular" family="Be Vietnam Pro" pointSize="12"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XFo-ik-Ccd">
+                            <rect key="frame" x="0.0" y="60.666666666666671" width="83" height="28"/>
+                            <color key="backgroundColor" red="1" green="0.70588235294117641" blue="0.0" alpha="0.89803921568627454" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="83" id="PPp-VJ-Vrb"/>
+                                <constraint firstAttribute="height" constant="28" id="ZX0-eF-8Qs"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="BeVietnamPro-SemiBold" family="Be Vietnam Pro" pointSize="12"/>
+                            <color key="tintColor" red="0.14117647058823529" green="0.14117647058823529" blue="0.14117647058823529" alpha="0.89803921568627454" colorSpace="calibratedRGB"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Tải ngay"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="8"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="installAppAction:" destination="-1" eventType="touchUpInside" id="WIJ-EV-JdQ"/>
+                            </connections>
+                        </button>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_mascot_install_app_banner" translatesAutoresizingMaskIntoConstraints="NO" id="DP4-Wk-VPH">
+                            <rect key="frame" x="277" y="0.0" width="92" height="92"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="DP4-Wk-VPH" secondAttribute="height" id="g2a-R7-tSD"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="Zva-Ly-9BO" firstAttribute="leading" secondItem="QB1-VI-DZW" secondAttribute="leading" id="3Ja-Dg-xdv"/>
+                        <constraint firstItem="7Jc-ry-vXk" firstAttribute="leading" secondItem="QB1-VI-DZW" secondAttribute="leading" id="41Q-KG-aBy"/>
+                        <constraint firstAttribute="bottom" secondItem="DP4-Wk-VPH" secondAttribute="bottom" id="8d8-6r-8gz"/>
+                        <constraint firstItem="DP4-Wk-VPH" firstAttribute="leading" secondItem="Zva-Ly-9BO" secondAttribute="trailing" constant="16" id="9FU-4Y-JEL"/>
+                        <constraint firstItem="7Jc-ry-vXk" firstAttribute="top" secondItem="QB1-VI-DZW" secondAttribute="top" id="FiV-Wf-31H"/>
+                        <constraint firstItem="XFo-ik-Ccd" firstAttribute="leading" secondItem="QB1-VI-DZW" secondAttribute="leading" id="Mw2-96-RLr"/>
+                        <constraint firstAttribute="trailing" secondItem="DP4-Wk-VPH" secondAttribute="trailing" id="QGU-fg-UAg"/>
+                        <constraint firstItem="XFo-ik-Ccd" firstAttribute="top" secondItem="Zva-Ly-9BO" secondAttribute="bottom" constant="8" id="Rib-sj-njh"/>
+                        <constraint firstItem="Zva-Ly-9BO" firstAttribute="top" secondItem="7Jc-ry-vXk" secondAttribute="bottom" constant="4" id="qiL-fH-gec"/>
+                        <constraint firstItem="DP4-Wk-VPH" firstAttribute="top" secondItem="QB1-VI-DZW" secondAttribute="top" id="wwm-31-DpJ"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" red="0.40000000000000002" green="0.21176470589999999" blue="0.57254901960000004" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="QB1-VI-DZW" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="12" id="K6b-Gf-L4X"/>
+                <constraint firstItem="QB1-VI-DZW" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="12" id="ZVU-7b-Yf6"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="QB1-VI-DZW" secondAttribute="trailing" constant="12" id="kQi-qH-2JU"/>
+                <constraint firstAttribute="bottom" secondItem="QB1-VI-DZW" secondAttribute="bottom" constant="12" id="mwy-AR-u9L"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                    <real key="value" value="12"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <point key="canvasLocation" x="-141.22137404580153" y="-44.366197183098592"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="img_mascot_install_app_banner" width="92" height="92"/>
+    </resources>
+</document>

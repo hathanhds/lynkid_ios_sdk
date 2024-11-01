@@ -1,0 +1,76 @@
+{
+  "result": {
+    "totalCount": 126,
+    "items": [
+      {
+        "id": 2899,
+        "name": "TCH NVLượng: 258 Nguyễn Văn Lượng, Quận Gò Vấp, TP Hồ Chí Minh",
+        "address": "TCH NVLượng: 258 Nguyễn Văn Lượng, Quận Gò Vấp, TP Hồ Chí Minh",
+        "phone": "",
+        "latitude": "10.83882",
+        "longtitude": "106.67138"
+      },
+      {
+        "id": 2900,
+        "name": "TCH Hà Đô: 371 Nguyễn Kiệm, Phường 3, Quận Gò Vấp, TP Hồ Chí Minh",
+        "address": "TCH Hà Đô: 371 Nguyễn Kiệm, Phường 3, Quận Gò Vấp, TP Hồ Chí Minh",
+        "phone": "",
+        "latitude": "10.81657",
+        "longtitude": "106.67708"
+      },
+      {
+        "id": 2901,
+        "name": "TCH Quang Trung: 293 Quang Trung, Quận Gò Vấp, TP Hồ Chí Minh",
+        "address": "TCH Quang Trung: 293 Quang Trung, Quận Gò Vấp, TP Hồ Chí Minh",
+        "phone": "",
+        "latitude": "10.82910",
+        "longtitude": "106.67205"
+      },
+      {
+        "id": 2902,
+        "name": "TCH Nguyễn Thái Sơn: 41 Nguyễn Thái Sơn, Quận Gò Vấp, TP Hồ Chí Minh",
+        "address": "TCH Nguyễn Thái Sơn: 41 Nguyễn Thái Sơn, Quận Gò Vấp, TP Hồ Chí Minh",
+        "phone": "",
+        "latitude": "10.82501",
+        "longtitude": "106.68752"
+      },
+      {
+        "id": 2903,
+        "name": "TCH D2: 157-157A, Đường D2, Phường 25, Quận Bình Thạnh, TP Hồ Chí Minh",
+        "address": "TCH D2: 157-157A, Đường D2, Phường 25, Quận Bình Thạnh, TP Hồ Chí Minh",
+        "phone": "",
+        "latitude": "10.80532",
+        "longtitude": "106.71590"
+      },
+      {
+        "id": 2904,
+        "name": "TCH Bùi Hữu Nghĩa: 270 Bùi Hữu Nghĩa, Phường 2, Quận Bình Thạnh, TP Hồ Chí Minh",
+        "address": "TCH Bùi Hữu Nghĩa: 270 Bùi Hữu Nghĩa, Phường 2, Quận Bình Thạnh, TP Hồ Chí Minh",
+        "phone": "",
+        "latitude": "10.79900",
+        "longtitude": "106.68752"
+      },
+      {
+        "id": 2903,
+        "name": "TCH D2: 157-157A, Đường D2, Phường 25, Quận Bình Thạnh, TP Hồ Chí Minh",
+        "address": "TCH D2: 157-157A, Đường D2, Phường 25, Quận Bình Thạnh, TP Hồ Chí Minh",
+        "phone": "",
+        "latitude": "10.80532",
+        "longtitude": "106.71590"
+      },
+      {
+        "id": 2904,
+        "name": "TCH Bùi Hữu Nghĩa: 270 Bùi Hữu Nghĩa, Phường 2, Quận Bình Thạnh, TP Hồ Chí Minh",
+        "address": "TCH Bùi Hữu Nghĩa: 270 Bùi Hữu Nghĩa, Phường 2, Quận Bình Thạnh, TP Hồ Chí Minh",
+        "phone": "",
+        "latitude": "10.79900",
+        "longtitude": "106.69951"
+      }
+    ]
+  },
+  "targetUrl": null,
+  "success": true,
+  "error": null,
+  "unAuthorizedRequest": false,
+  "__abp": true
+}
