@@ -21,27 +21,21 @@ PODS:
   - SDWebImage (5.18.12):
     - SDWebImage/Core (= 5.18.12)
   - SDWebImage/Core (5.18.12)
-  - SkeletonView (1.30.4)
   - SVGKit (3.0.0):
     - CocoaLumberjack (~> 3.0)
-  - SVProgressHUD (2.3.1):
-    - SVProgressHUD/Core (= 2.3.1)
-  - SVProgressHUD/Core (2.3.1)
   - SwiftyAttributes (5.4.0)
   - Tabman (3.2.0):
     - Pageboy (~> 4.2.0)
 
 DEPENDENCIES:
-  - EasyTipView
+  - EasyTipView (~> 2.1.0)
   - iCarousel (~> 1.8.3)
-  - IQKeyboardManagerSwift
-  - Moya/RxSwift
-  - RxCocoa
+  - IQKeyboardManagerSwift (~> 6.5.16)
+  - Moya/RxSwift (~> 15.0.0)
+  - RxCocoa (~> 6.7.1)
   - SDWebImage (~> 5.18.10)
-  - SkeletonView
-  - SVGKit
-  - SVProgressHUD
-  - SwiftyAttributes
+  - SVGKit (~> 3.0.0)
+  - SwiftyAttributes (~> 5.4.0)
   - Tabman (~> 3.0)
 
 SPEC REPOS:
@@ -57,9 +51,7 @@ SPEC REPOS:
     - RxRelay
     - RxSwift
     - SDWebImage
-    - SkeletonView
     - SVGKit
-    - SVProgressHUD
     - SwiftyAttributes
     - Tabman
 
@@ -75,12 +67,10 @@ SPEC CHECKSUMS:
   RxRelay: 4151ba01152436b08271e08410135e099880eae5
   RxSwift: b9a93a26031785159e11abd40d1a55bcb8057e52
   SDWebImage: 2d6d229046fea284d62e36bfb8ebe8287dfc5b10
-  SkeletonView: 5a050f6411e697abd4cda0a8d767013399dccd69
   SVGKit: 1ad7513f8c74d9652f94ed64ddecda1a23864dea
-  SVProgressHUD: 4837c74bdfe2e51e8821c397825996a8d7de6e22
   SwiftyAttributes: 45fae22b22a246a0b7f0a8d2157a02bf89fb2e9a
   Tabman: 49f9181a2bfe5c29d002864dac2de8e0b7ea9180
 
-PODFILE CHECKSUM: 5309abbac0f8d0cc4a312b02d3223865d5db2dfb
+PODFILE CHECKSUM: bb361602a4d2eb451b7150ed331a260846d9c314
 
-COCOAPODS: 1.14.2
+COCOAPODS: 1.16.2

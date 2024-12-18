@@ -7,7 +7,6 @@
 
 import UIKit
 import RxSwift
-import SkeletonView
 
 class ListDiamondGiftByCateViewController: BaseViewController, ViewControllerType {
 
@@ -236,24 +235,9 @@ class ListDiamondGiftByCateViewController: BaseViewController, ViewControllerTyp
 
 // CollectionView
 
-extension ListDiamondGiftByCateViewController: SkeletonCollectionViewDataSource, SkeletonCollectionViewDelegate, UICollectionViewDelegateFlowLayout {
+extension ListDiamondGiftByCateViewController: UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
 
     // MARK: - Datasource
-    func collectionSkeletonView(_ skeletonView: UICollectionView, cellIdentifierForItemAt indexPath: IndexPath) -> SkeletonView.ReusableCellIdentifier {
-        if(skeletonView == cateCollectionView) {
-            return String(describing: GiftCategoryCollectionViewCell.self)
-        } else {
-            return String(describing: DiamondGiftCollectionViewCell.self)
-        }
-    }
-
-    func collectionSkeletonView(_ skeletonView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        if(skeletonView == cateCollectionView) {
-            return 6
-        } else {
-            return viewModel.output.gifts.value.count
-        }
-    }
 
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         if(collectionView == cateCollectionView) {

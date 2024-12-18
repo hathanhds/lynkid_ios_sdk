@@ -380,9 +380,6 @@ extension APIService: TargetType {
     }
 
     var baseURL: URL {
-//        let urlString = EnvConfig.shared.baseUrl
-//        return URL(string: urlString)!
-        let urlString = EnvConfig.shared.baseUrl
         return URL(string: "https:/vpid-mobile-api-uat.linkid.vn")!
     }
 }

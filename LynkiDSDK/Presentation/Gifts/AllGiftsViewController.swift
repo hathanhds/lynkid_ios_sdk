@@ -7,7 +7,6 @@
 
 import UIKit
 import RxSwift
-import SkeletonView
 
 class AllGiftsViewController: BaseViewController, ViewControllerType {
 
@@ -161,18 +160,9 @@ class AllGiftsViewController: BaseViewController, ViewControllerType {
 
 // CollectionView
 
-extension AllGiftsViewController: SkeletonCollectionViewDataSource, SkeletonCollectionViewDelegate, UICollectionViewDelegateFlowLayout {
+extension AllGiftsViewController: UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
 
-    // MARK: - Datasource
-    func collectionSkeletonView(_ skeletonView: UICollectionView, cellIdentifierForItemAt indexPath: IndexPath) -> SkeletonView.ReusableCellIdentifier {
-
-        return String(describing: GiftCategoryCollectionViewCell.self)
-    }
-
-    func collectionSkeletonView(_ skeletonView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 6
-    }
-
+//    // MARK: - Datasource
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return self.viewModel.output.giftCates.value.count
     }

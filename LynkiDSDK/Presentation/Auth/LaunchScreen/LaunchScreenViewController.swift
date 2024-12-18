@@ -18,7 +18,6 @@ class LaunchScreenViewController: BaseViewController {
         vc.viewModel = viewModel
         return vc as! Self
     }
-
     // Outlets
 
 
@@ -120,6 +119,7 @@ class LaunchScreenViewController: BaseViewController {
                 self.navigationController?.pushViewController(vc, animated: true)
             }
         }
+
     }
 
     override func bindToView() {

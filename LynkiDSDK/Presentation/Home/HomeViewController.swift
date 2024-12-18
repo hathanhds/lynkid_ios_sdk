@@ -8,7 +8,6 @@
 
 import UIKit
 import iCarousel
-import SkeletonView
 import RxSwift
 import SVGKit
 
@@ -310,6 +309,17 @@ class HomeViewController: BaseViewController, ViewControllerType {
         })
             .disposed(by: disposeBag)
 
+        viewModel.output.isLoading.subscribe(onNext: { [weak self] isLoading in
+            guard let self = self else { return }
+            if (isLoading) {
+                self.showLoading()
+            } else {
+                self.hideLoading()
+            }
+        })
+            .disposed(by: disposeBag)
+
+
     }
 
     @objc func swipeCarouselRight(sender: UISwipeGestureRecognizer) { newsBannerCarousel.scroll(byNumberOfItems: -1, duration: 0.1) }
@@ -418,26 +428,9 @@ extension HomeViewController: UIScrollViewDelegate {
     }
 }
 
-extension HomeViewController: SkeletonCollectionViewDataSource, SkeletonCollectionViewDelegate, UICollectionViewDelegateFlowLayout {
+extension HomeViewController: UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
 
     // MARK: - Datasource
-
-    func collectionSkeletonView(_ skeletonView: UICollectionView, cellIdentifierForItemAt indexPath: IndexPath) -> SkeletonView.ReusableCellIdentifier {
-        switch skeletonView {
-        case self.giftCateCollectionView:
-            return String(describing: GiftCategoryCollectionViewCell.self)
-        case self.giftGroupCollectionView:
-            return String(describing: GiftCollectionViewCell.self)
-        case self.newsCollectionView:
-            return String(describing: HomeNewsCollectionViewCell.self)
-        default:
-            return ""
-        }
-    }
-
-    func collectionSkeletonView(_ skeletonView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 6
-    }
 
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         switch collectionView {
@@ -606,50 +599,37 @@ extension HomeViewController {
     }
 
     func showGiftCateLoading() {
-        self.giftCateCollectionView.showSkeletonView()
-//        self.giftCateTitleLabel.showSkeletonView()
         self.giftCateSeeMoreButton.isHidden = true
     }
 
     func hideGiftCateLoading() {
-        self.giftCateCollectionView.hideSkeleton()
-//        self.giftCateTitleLabel.hideSkeleton()
         self.giftCateSeeMoreButton.isHidden = false
     }
 
     func showNewsBannerLoading() {
-        self.newsBannerCarousel.showSkeletonView()
         self.bannerPageControl.isHidden = true
     }
 
     func hideNewsBannerLoading() {
-        self.newsBannerCarousel.hideSkeleton()
+//        self.newsBannerCarousel.hideSkeleton()
     }
 
     func showGiftGroupLoading() {
-        self.giftGroupCollectionView.showSkeletonView()
         self.giftGroupTitleLabel.isHidden = true
-        self.giftGroupTitleLabel.showSkeletonView()
         self.giftGroupTitleLabel.numberOfLines = 1
         self.giftGroupSeeMoreButton.isHidden = true
     }
 
     func hideGiftGroupLoading() {
-        self.giftGroupCollectionView.hideSkeleton()
-        self.giftGroupTitleLabel.hideSkeleton()
         self.giftGroupTitleLabel.isHidden = false
         self.giftGroupSeeMoreButton.isHidden = false
     }
 
     func showNewsLoading() {
-        self.newsCollectionView.showSkeletonView()
-        self.newsTitleLabel.showSkeletonView()
         self.newsSeeMoreButton.isHidden = true
     }
 
     func hideNewsLoading() {
-        self.newsCollectionView.hideSkeleton()
-        self.newsTitleLabel.hideSkeleton()
         self.newsTitleLabel.isHidden = false
     }
 }

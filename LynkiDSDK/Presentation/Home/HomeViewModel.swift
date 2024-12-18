@@ -47,6 +47,8 @@ class HomeViewModel: ViewModelType {
 
         let isRefreshing: BehaviorRelay<Bool>
 
+        let isLoading: BehaviorRelay<Bool>
+
     }
 
     var input: Input
@@ -74,6 +76,7 @@ class HomeViewModel: ViewModelType {
     let giftGroupInfoSubj = BehaviorRelay<GiftGroupItem?>(value: nil)
 
     let isRefreshingSubj = BehaviorRelay(value: false)
+    let isLoadingSubj = BehaviorRelay(value: false)
 
     init(newsRepository: NewsRepository, giftsRepository: GiftsRepository, userRepository: UserRepository) {
 
@@ -95,11 +98,17 @@ class HomeViewModel: ViewModelType {
             news: newsSubj,
             banners: bannersSubj,
             currentBannerPageControlIndex: currentBannerPageControlIndexSubj, isLoadingGiftGroup: isLoadingGiftGroupSubj, giftGroupInfo: giftGroupInfoSubj,
-            isRefreshing: isRefreshingSubj)
+            isRefreshing: isRefreshingSubj,
+            isLoading: isLoadingSubj)
 
         self.viewDidLoadSubj.subscribe { [weak self] _ in
             guard let self = self else { return }
+            self.isLoadingSubj.accept(true)
             self.fetchData()
+            dispatchGroup.notify(queue: .main) {
+                self.isLoadingSubj.accept(false)
+            }
+
         }.disposed(by: disposeBag)
 
         self.refreshDataSubj.subscribe { [weak self] _ in

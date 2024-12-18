@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import SVProgressHUD
 import iCarousel
 import EasyTipView
 
@@ -21,8 +20,8 @@ extension UIViewController {
     }
 }
 
-extension UIViewController  {
-    
+extension UIViewController {
+
     func setupTransparentNavigationBar() {
         guard let navigationBar = navigationController?.navigationBar else { return }
 
@@ -72,14 +71,7 @@ extension UIViewController  {
 extension UIViewController {
 
     func showLoading(color: UIColor = .mainColor!) {
-        SVProgressHUD.setDefaultStyle(.custom)
-        SVProgressHUD.setDefaultMaskType(.custom)
-        SVProgressHUD.setForegroundColor(color)
-        SVProgressHUD.setBackgroundColor(.clear)
-        SVProgressHUD.setBackgroundLayerColor(.clear)
-        SVProgressHUD.setRingThickness(4)
-        SVProgressHUD.setCornerRadius(26)
-        SVProgressHUD.show()
+        LoadingManager.shared.showLoading(in: self.view, color: color)
         self.view.endEditing(true)
     }
 
@@ -88,7 +80,7 @@ extension UIViewController {
     }
 
     func hideLoading() {
-        SVProgressHUD.dismiss()
+        LoadingManager.shared.hideLoading()
     }
 }
 

@@ -1,16 +1,17 @@
 {
   "images" : [
     {
+      "filename" : "image 458.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Xác nhận sử dụng x2.png",
+      "filename" : "image 458@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "Xác nhận sử dụng x3.png",
+      "filename" : "image 458@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

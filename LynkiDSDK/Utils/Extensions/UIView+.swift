@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import SkeletonView
 
 enum GradientDirection {
     case up, down, left, right
@@ -127,16 +126,16 @@ extension UIView {
         gradient.endPoint = direction.endPoint
         self.layer.insertSublayer(gradient, at: 0)
     }
-    
+
 
     func setCommonGradient() {
         self.setGradient(colors: [.c591C90!, .c971ACC!], direction: .right)
     }
-    
+
     func setInstallAppButtonGradient() {
         self.setGradient(colors: [.cFFD10F!, .cFE9E32!], direction: .right)
     }
-    
+
     // Diamond
     func setDiamondBackgroundGradient() {
         self.setGradient(colors: [.c0F0F0F!, .c47372B!], direction: .down)
@@ -219,14 +218,6 @@ extension NibLoadable where Self: UIView {
 }
 
 extension UIView {
-
-    func showSkeletonView() {
-        self.isSkeletonable = true
-        self.showAnimatedGradientSkeleton()
-        self.showAnimatedSkeleton(usingColor: .shimmerColor!, transition: .crossDissolve(0.25))
-        self.isUserInteractionEnabled = false
-        self.isUserInteractionDisabledWhenSkeletonIsActive = true
-    }
 
     func showIndicator() {
         self.addIndicator()

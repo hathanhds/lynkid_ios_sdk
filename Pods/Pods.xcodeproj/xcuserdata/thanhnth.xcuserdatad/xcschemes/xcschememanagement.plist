@@ -114,20 +114,6 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>17</integer>
-		</dict>
-		<key>SVProgressHUD.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>18</integer>
-		</dict>
-		<key>SkeletonView.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
 			<integer>16</integer>
 		</dict>
 		<key>SwiftyAttributes.xcscheme</key>
@@ -135,21 +121,21 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>19</integer>
+			<integer>17</integer>
 		</dict>
 		<key>Tabman-Tabman.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>21</integer>
+			<integer>19</integer>
 		</dict>
 		<key>Tabman.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>20</integer>
+			<integer>18</integer>
 		</dict>
 		<key>iCarousel.xcscheme</key>
 		<dict>
